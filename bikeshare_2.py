@@ -23,7 +23,7 @@ def get_filters():
         print('First select the city to filter on or press enter to default to Chicago')
         city = input('Enter either Chicago, New York City or Washington [Chicago]: ').lower()
         if city == '':
-            city = 'chicago'
+            city = 'new york city'
 
 
     # get user input for month (all, january, february, ... , june)
