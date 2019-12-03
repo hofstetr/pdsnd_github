@@ -92,9 +92,9 @@ def load_data(city, month, day):
     while(browse == 'y'):
         print(df[index:index+5])
         index = index + 5
-        browse = input('Would you like to continue? (y/n) [y]: ').lower()
+        browse = input('Would you like to continue? (y/n) [n]: ').lower()
         if(browse == ''):
-            browse = 'y'
+            browse = 'n'
 
     return df
 
